@@ -74,8 +74,8 @@ form {
 		margin-bottom: 3.5rem;
 		padding: 0 1em;
 		width: 100%;
-		max-width: 50em;
-		height: 3em;
+		max-width: 45em;
+		height: 4em;
 		border-radius: 2em;
 		border: 1px solid rgba($color: #000000, $alpha: 0.1);
 
@@ -87,7 +87,9 @@ form {
 		input {
 			margin-left: 0.5rem;
 			font-size: 1.6rem;
+			padding-left: 1em;
 			border: none;
+			border-radius: 2rem;
 			width: 100%;
 			height: 100%;
 			&:focus {
@@ -97,7 +99,7 @@ form {
 
 		.icon {
 			font-size: 2rem;
-			padding: 0.5rem 0.5rem 0 0;
+			padding: 0.5rem 0.2rem 0 0;
 			color: #505050;
 		}
 
